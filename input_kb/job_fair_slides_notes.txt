@@ -1,0 +1,8 @@
+Interview Preparation Notes
+
+- Introduce yourself in a clear and confident way.
+- Match your project explanations to the job description.
+- Explain your role, tools used, and final outcome in each project.
+- Revise Python basics, SQL queries, and Git workflow.
+- Be ready to discuss teamwork, deadlines, and problem solving.
+- Ask thoughtful questions about the company and the role.

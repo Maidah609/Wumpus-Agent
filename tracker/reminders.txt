@@ -1,0 +1,5 @@
+Application Reminders
+=====================
+
+- APP-001: Interview for Junior AI Engineer Intern at ABC Tech on 2026-05-01 (upcoming). Next action: Prepare interview questions and revise projects
+- APP-002: Resume still needs tailoring for Software Developer Intern at DataNova Solutions.

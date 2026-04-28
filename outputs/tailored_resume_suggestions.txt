@@ -1,0 +1,21 @@
+Tailored Resume Suggestions
+===========================
+
+Suggested summary updates:
+- Add a short summary focused on the target role and your strongest technical skills.
+- Highlight relevant academic, freelance, or personal projects before unrelated details.
+- Use action verbs and measurable outcomes wherever possible.
+
+Suggested bullets to emphasize:
+- Add or strengthen a project bullet that proves hands-on work with data analysis.
+- Add or strengthen a project bullet that proves hands-on work with git.
+- Add or strengthen a project bullet that proves hands-on work with github.
+- Add or strengthen a project bullet that proves hands-on work with machine learning.
+- Add or strengthen a project bullet that proves hands-on work with problem solving.
+
+Skills to improve before applying/interview:
+- Study or practice api and prepare one example showing how you can learn or apply it.
+- Study or practice rest api and prepare one example showing how you can learn or apply it.
+
+Resume tailoring note:
+- Mirror the job wording for these key skills: api, data analysis, git, github, machine learning, problem solving, python, rest api

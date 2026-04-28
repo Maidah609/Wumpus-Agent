@@ -1,0 +1,21 @@
+Company: ABC Tech
+Role: Junior AI Engineer Intern
+Source: LinkedIn
+
+ABC Tech is looking for a Junior AI Engineer Intern with knowledge of Python, machine learning, SQL, Git, and data analysis.
+
+Responsibilities:
+- Assist in building machine learning prototypes
+- Analyze structured data and prepare reports
+- Work with GitHub for version control
+- Support API-based integrations for internal tools
+- Communicate progress clearly with the team
+
+Preferred skills:
+- Python
+- Machine learning
+- SQL
+- Data analysis
+- Git / GitHub
+- REST API basics
+- Problem solving

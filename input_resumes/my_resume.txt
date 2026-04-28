@@ -1,0 +1,25 @@
+Student Resume
+
+Summary:
+Computer science student with experience in Python, Git, SQL, data analysis, machine learning coursework, and building academic software projects.
+
+Skills:
+- Python
+- SQL
+- Git
+- GitHub
+- Data analysis
+- Machine learning
+- HTML
+- CSS
+- Communication
+
+Projects:
+- Built a student result analysis tool using Python and pandas.
+- Developed a small job application tracker with CSV files and Python scripting.
+- Created a web UI assignment using HTML, CSS, and JavaScript.
+
+Strengths:
+- Problem solving
+- Quick learning
+- Team collaboration

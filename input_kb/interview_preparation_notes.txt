@@ -1,0 +1,7 @@
+Course and Interview Knowledge Base
+
+- Machine learning interview questions often start with supervised vs unsupervised learning.
+- SQL interview questions usually include joins, grouping, filtering, and subqueries.
+- Git questions may focus on commits, branches, merges, and collaboration workflow.
+- Behavioral interviews check communication, ownership, learning ability, and teamwork.
+- Strong answers use examples from projects, labs, internships, or coursework.

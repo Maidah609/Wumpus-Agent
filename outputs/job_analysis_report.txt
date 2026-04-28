@@ -1,0 +1,38 @@
+Job Analysis Report
+===================
+
+Job #1: job_poster_01.txt
+Company: ABC Tech
+Detected role: Junior AI Engineer Intern
+Detected skills: api, data analysis, git, github, machine learning, problem solving, python, rest api, sql
+Top terms:
+- machine: 3
+- learning: 3
+- data: 3
+- abc: 2
+- tech: 2
+- junior: 2
+- engineer: 2
+- intern: 2
+- python: 2
+- sql: 2
+- git: 2
+- github: 2
+
+Job #2: job_poster_02.txt
+Company: DataNova Solutions
+Detected role: Software Developer Intern
+Detected skills: communication, css, git, html, javascript, python, react, teamwork
+Top terms:
+- software: 3
+- datanova: 2
+- solutions: 2
+- developer: 2
+- intern: 2
+- python: 2
+- javascript: 2
+- html: 2
+- css: 2
+- react: 2
+- git: 2
+- company: 1

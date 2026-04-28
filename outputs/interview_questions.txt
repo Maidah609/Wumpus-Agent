@@ -1,0 +1,41 @@
+Interview Questions
+===================
+
+Technical questions based on the selected job:
+- Explain your understanding of api.
+- Describe a project, assignment, or task where you used api.
+- Explain your understanding of data analysis.
+- Describe a project, assignment, or task where you used data analysis.
+- Explain your understanding of git.
+- Describe a project, assignment, or task where you used git.
+- Explain your understanding of github.
+- Describe a project, assignment, or task where you used github.
+- Explain your understanding of machine learning.
+- Describe a project, assignment, or task where you used machine learning.
+- Explain your understanding of problem solving.
+- Describe a project, assignment, or task where you used problem solving.
+- Explain your understanding of python.
+- Describe a project, assignment, or task where you used python.
+- Explain your understanding of rest api.
+- Describe a project, assignment, or task where you used rest api.
+- Explain your understanding of sql.
+- Describe a project, assignment, or task where you used sql.
+
+HR and behavioral questions:
+- Tell me about yourself.
+- Why are you interested in this role?
+- What project are you most proud of and why?
+- Describe a time you learned a new skill quickly.
+- How do you handle deadlines and teamwork?
+
+Questions inspired by the knowledge base:
+- In an interview, how would you explain this concept: ## interview_preparation_notes.txt?
+- In an interview, how would you explain this concept: Course and Interview Knowledge Base?
+- In an interview, how would you explain this concept: Machine learning interview questions often start with supervised vs unsupervised learning.?
+- In an interview, how would you explain this concept: SQL interview questions usually include joins, grouping, filtering, and subqueries.?
+- In an interview, how would you explain this concept: Git questions may focus on commits, branches, merges, and collaboration workflow.?
+- In an interview, how would you explain this concept: Behavioral interviews check communication, ownership, learning ability, and teamwork.?
+- In an interview, how would you explain this concept: Strong answers use examples from projects, labs, internships, or coursework.?
+- In an interview, how would you explain this concept: ## job_fair_slides_notes.txt?
+- In an interview, how would you explain this concept: Interview Preparation Notes?
+- In an interview, how would you explain this concept: Introduce yourself in a clear and confident way.?
