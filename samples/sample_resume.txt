@@ -1,1 +1,0 @@
-Sample resume text for testing the file-driven agent.

@@ -1,76 +1,65 @@
-# Job-Hunting Agent
+# Dynamic Wumpus Logic Agent (Web App)
 
-A file-driven Python agent for job analysis, resume tailoring, interview preparation, application tracking, and reminder generation.
+This project implements a Knowledge-Based Agent for a dynamic Wumpus World grid.
+The agent receives percepts (`Breeze`, `Stench`), updates a propositional KB, and uses
+Resolution Refutation to decide whether an unvisited cell is safe.
 
 ## Features
 
-- Reads job posters from `input_jobs/`
-- Reads resumes from `input_resumes/`
-- Reads knowledge-base notes from `input_kb/`
-- Generates:
-  - `outputs/job_analysis_report.txt`
-  - `outputs/skill_gap_report.txt`
-  - `outputs/tailored_resume_suggestions.txt`
-  - `outputs/interview_questions.txt`
-  - `outputs/preparation_plan.txt`
-  - `outputs/final_agent_report.txt`
-- Maintains:
-  - `tracker/applications.csv`
-  - `tracker/reminders.txt`
+- Dynamic grid size (`Rows x Cols`)
+- Random hazards each episode (pits + one wumpus)
+- Percept-driven logic updates to KB
+- Resolution-based `ASK` before movement
+- Web GUI with:
+  - Green = safe
+  - Gray = unknown
+  - Red = deduced hazard
+  - Yellow = agent
+- Real-time metrics:
+  - Total inference steps
+  - Current percepts
+  - visited cells
 
 ## Project Structure
 
 ```text
-assignment5/
-|-- app.py
-|-- requirements.txt
-|-- README.md
-|-- reflection.md
-|-- input_jobs/
-|-- input_resumes/
-|-- input_kb/
-|-- outputs/
-|-- tracker/
-`-- samples/
+assignment3/
+  backend/
+    app.py
+    agent.py
+    kb.py
+    world.py
+  frontend/
+    index.html
+    style.css
+    script.js
+  requirements.txt
+  README.md
 ```
 
-## Supported File Types
+## Run Locally
 
-- `.txt`
-- `.pdf`
-- `.docx`
+1. Open terminal in project root.
+2. Install dependencies:
+   - `python -m pip install -r requirements.txt`
+3. Start server:
+   - `python backend/app.py`
+4. Open browser:
+   - [http://127.0.0.1:5000](http://127.0.0.1:5000)
 
-## How To Run
+## How It Works
 
-1. Install dependencies:
+1. Agent starts at `(0,0)` with known safety facts.
+2. At each step, it senses local percepts:
+   - `B(r,c)` if adjacent to any pit
+   - `S(r,c)` if adjacent to wumpus
+3. The KB stores CNF-compatible clauses from percept equivalences.
+4. Before entering a new neighboring cell `x`, the agent asks KB:
+   - `entails(~P_x)` and `entails(~W_x)` using resolution refutation.
+5. If both are proven, the cell is safe and can be selected.
 
-   ```bash
-   pip install -r requirements.txt
-   ```
+## Deployment
 
-2. Add at least one file in each folder:
-   - `input_jobs/`
-   - `input_resumes/`
-   - `input_kb/`
-
-3. Run the agent:
-
-   ```bash
-   python app.py
-   ```
-
-## Workflow
-
-1. Read job posters, resumes, and KB files from folders
-2. Extract keywords and common technical skills
-3. Compare job requirements with resume skills
-4. Generate skill-gap and resume-tailoring outputs
-5. Create interview questions from job skills and KB notes
-6. Create or update the application tracker
-7. Generate reminders for interview and follow-up actions
-
-## Notes
-
-- The project includes sample input files so it can run immediately.
-- You can replace sample files with your own resume, job posters, and interview notes.
-- PDF and DOCX reading are included as an extra feature beyond the minimum assignment requirement.
+- Push this project to GitHub.
+- Deploy (e.g., Render / Railway / any Flask host, or split frontend/backend).
+- Add URLs in your report.

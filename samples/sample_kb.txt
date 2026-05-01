@@ -1,1 +1,0 @@
-Sample knowledge-base text for testing the file-driven agent.

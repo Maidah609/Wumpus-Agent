@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dynamic Wumpus Logic Agent</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="container">
+      <h1>Dynamic Wumpus Logic Agent</h1>
+
+      <section class="controls">
+        <label>
+          Rows
+          <input id="rows" type="number" min="2" max="12" value="4" />
+        </label>
+        <label>
+          Cols
+          <input id="cols" type="number" min="2" max="12" value="4" />
+        </label>
+        <label>
+          Pit Probability
+          <input id="pitProbability" type="number" min="0.05" max="0.45" step="0.05" value="0.20" />
+        </label>
+        <label>
+          Seed (optional)
+          <input id="seed" type="number" placeholder="e.g. 42" />
+        </label>
+        <button id="resetBtn">Reset Episode</button>
+        <button id="stepBtn">Step</button>
+        <button id="autoBtn">Auto Run (25)</button>
+        <button id="autoAnimatedBtn">Auto Animated</button>
+        <label class="inline-check">
+          <input id="revealTruth" type="checkbox" />
+          Reveal Ground Truth
+        </label>
+      </section>
+
+      <section class="dashboard">
+        <div><strong>Status:</strong> <span id="statusText">-</span></div>
+        <div><strong>Position:</strong> <span id="positionText">-</span></div>
+        <div><strong>Percepts:</strong> <span id="perceptsText">-</span></div>
+        <div><strong>Inference Steps:</strong> <span id="inferenceText">0</span></div>
+        <div><strong>Visited Cells:</strong> <span id="visitedText">0</span></div>
+        <div><strong>Safe Cells:</strong> <span id="safeText">0</span></div>
+        <div><strong>Unknown Cells:</strong> <span id="unknownText">0</span></div>
+      </section>
+
+      <section>
+        <div id="grid" class="grid"></div>
+      </section>
+
+      <section class="log-panel">
+        <h3>Decision Trace</h3>
+        <div id="logList" class="log-list"></div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
