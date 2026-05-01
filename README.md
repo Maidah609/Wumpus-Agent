@@ -58,8 +58,3 @@ assignment3/
    - `entails(~P_x)` and `entails(~W_x)` using resolution refutation.
 5. If both are proven, the cell is safe and can be selected.
 
-## Deployment
-
-- Push this project to GitHub.
-- Deploy (e.g., Render / Railway / any Flask host, or split frontend/backend).
-- Add URLs in your report.
