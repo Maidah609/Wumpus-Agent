@@ -1,8 +1,8 @@
 # AI Assignment 6 Report - Dynamic Wumpus Logic Agent
 
 ## Student Information
-- Name: [Your Name]
-- Roll Number: [XXF-YYYY]
+- Name: Maidah Nasir
+- Roll Number: 23F-0764
 - Course: Artificial Intelligence
 - Assignment: A6 - Coding Project
 
@@ -99,8 +99,4 @@ The project successfully demonstrates a dynamic knowledge-based agent using prop
 resolution refutation in an interactive web application. It satisfies the assignment requirement for
 dynamic environment setup, logical inference, and real-time visualization.
 
-## 11) Viva Preparation Checklist
-- Change grid size and re-run in front of examiner.
-- Explain one full safety proof example (`¬P` and `¬W` checks).
-- Show where CNF clauses are generated in code.
-- Demonstrate that hazards are randomized each reset.
+
